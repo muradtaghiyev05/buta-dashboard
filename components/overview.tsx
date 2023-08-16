@@ -37,7 +37,7 @@ export const Overview: React.FC<OverviewProps> = ({
   };
 
   return (
-    <ResponsiveContainer width="100%" height={350}>
+    <ResponsiveContainer width="99%" aspect={3}>
       <BarChart data={data}>
         <XAxis
           dataKey="name"
