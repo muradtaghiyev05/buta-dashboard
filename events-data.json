@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Meeting with the CEO",
+    "date": "17 August 2023",
+    "start": "10:00",
+    "end": "11:00",
+    "location": "Conference Room 1",
+    "description": "Meeting with the CEO to discuss the new project."
+  },
+  {
+    "id": 2,
+    "title": "Discussing the new project",
+    "date": "18 August 2023",
+    "start": "10:00",
+    "end": "11:00",
+    "location": "Conference Room 2",
+    "description": "Meeting with the CEO to discuss the new project."
+  },
+  {
+    "id": 3,
+    "title": "Birthday party",
+    "date": "21 August 2023",
+    "start": "21:00",
+    "end": "00:00",
+    "location": "Kitchen",
+    "description": "Party to celebrate our manager John's birthday."
+  }
+]
