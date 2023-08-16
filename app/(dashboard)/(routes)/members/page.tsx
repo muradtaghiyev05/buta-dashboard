@@ -10,6 +10,7 @@ import { getuniversities } from "@/actions/get-universities";
 import { getdegrees } from "@/actions/get-degrees";
 
 import { MemberColumn, columns } from "./components/columns";
+import { OverviewPie } from "@/components/overview-pie";
 
 const Members = () => {
   const [globalFilter, setglobalFilter] = React.useState<string>("");
@@ -44,7 +45,7 @@ const Members = () => {
       </div>
       <div className="flex-1 space-y-4 p-8 pt-6">
         <Heading title="Degrees" description="Member's education levels" />
-        <Overview data={degreesData} limit={20} />
+        <OverviewPie data={degreesData} />
       </div>
     </div>
   );
